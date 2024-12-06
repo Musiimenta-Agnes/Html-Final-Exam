@@ -1,0 +1,14 @@
+.table {
+    background-color: rgb(247, 249, 250);
+    border-collapse: collapse;
+
+}
+
+tr th {
+    border-style: solid;
+    border-collapse: collapse;
+}
+ tr td {
+    border-style: solid;
+    border-collapse: collapse;
+ }

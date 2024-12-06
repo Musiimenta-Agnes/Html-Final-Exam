@@ -1,0 +1,56 @@
+
+@media(max-width: 768px) {
+nav {
+    flex-direction: column;
+}
+nav li {
+    width: 100%;
+    padding: 10px;
+}
+}
+.header {
+    background-color: beige;
+    color: black;
+}
+
+.nav ul {
+    display: block;
+    background-color: beige;
+    overflow: hidden;
+    list-style: none;
+    padding: 30px;
+}
+li {
+    float: left;
+}
+
+li a {
+    color: black;
+    padding: 40px 60px;
+    list-style: none;
+    margin-left: 0px;
+    text-decoration: none;
+    
+}
+
+li a:hover:not(.active) {
+    color: red;
+}
+
+.footer {
+    height: 400px;
+    background-color: beige;
+    
+    margin-bottom: 0px;
+    width: 2000px;
+    
+}
+
+.icons {
+    padding: 5px 5px;
+    color: black;
+    size: 50px;
+    list-style: none;
+    text-align: center;
+}
+

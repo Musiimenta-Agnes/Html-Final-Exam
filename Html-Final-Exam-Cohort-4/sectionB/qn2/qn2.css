@@ -1,0 +1,38 @@
+
+@media(max-width: 756px) {
+nav {
+    flex-direction: column;
+}
+nav li {
+    width: 100%;
+    padding: 10px;
+}
+}
+
+
+.nav ul {
+    display: block;
+    
+    overflow: hidden;
+    list-style: none;
+    padding: 30px;
+}
+li {
+    float: left;
+}
+
+li a {
+    color: black;
+    padding: 40px 60px;
+    list-style: none;
+    margin-left: 0px;
+    text-decoration: none;
+    
+}
+
+li a:hover {
+    color: red;
+}
+
+
+

@@ -1,0 +1,11 @@
+.footer a {
+padding: 20px 20px;
+background-color: darkblue;
+color: white;
+}
+
+.footer {
+    position: fixed;
+    align-content: flex-end;
+    height: 600px;
+}
